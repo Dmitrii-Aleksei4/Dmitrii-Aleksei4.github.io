@@ -1,0 +1,24 @@
+body {
+  font-style: 10px; }
+
+main {
+  padding: 7rem 0; }
+
+.cent {
+  display: flex; }
+
+.tel {
+  color: #1a1820;
+  font-weight: 900;
+  align-self: center; }
+
+button {
+  align-self: center;
+  color: white;
+  background-color: #fdb303;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 12px 1rem; }
+
+/*# sourceMappingURL=stail.css.map */
