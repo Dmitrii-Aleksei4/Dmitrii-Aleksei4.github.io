@@ -1,0 +1,117 @@
+$btn-color: #fdb303
+$icon-color: #48bd15
+$text: #1a1820
+$denger: #ff0000
+$bg-light: #f5f5f5
+$light: #ffffff
+$border-input: #dddddd
+
+@mixin reg()
+	font-family: 'ProximaNova_regular'
+
+@mixin bold()
+	font-family: 'ProximaNova_Bold'
+
+html
+	font-size: 10px
+
+body
+	+reg
+
+.main
+	padding: 3rem 0
+	background: #fff url(../img/main_bg.jpg) center center no-repeat
+	&-content
+		margin-top: 10rem
+	h1
+		margin-bottom: 4rem
+		+bold
+		line-height: 1.45
+		font-size: 4rem
+		text-transform: uppercase
+	&-subtitle
+		font-size: 2.4rem
+		margin-bottom: 4rem
+	span
+		// зеленое поле 
+		display: inline-block
+		padding: 3rem 5rem
+		font-size: 1.8rem
+		color: $light
+		background: $icon-color
+		text-align: center
+	strong
+		font-size: 3rem
+	&-triger
+
+		display: block
+		margin-top: 3rem
+		+bold
+		text-transform: uppercase
+		font-size: 2.4rem
+	&-form
+		padding: 4rem 5rem
+		background: $light
+		text-align: center
+		&-header
+			margin-bottom: 4rem
+			font-size: 1.8rem
+			strong
+				font-size: 1.9rem
+		&-input
+			display: block
+			width: 100%
+			border: 1px solid $border-input
+			padding: 1.5rem
+			margin: 2rem 0
+		label
+			// Установка и выравнивание лейбла
+			font-size: 1.3rem
+			position: absolute
+			left: 50%
+			transform: translateX(-50%) translateY(-50%)
+			display: inline-block
+			padding: 0.5rem
+			background-color: $light
+		&-btn
+			display: block
+			width: 100%
+			height: 5.5rem
+			font-size: 1.6rem
+		.small
+			display: block
+			margin-top: 1.5rem
+			font-size: 1.2rem			
+.small
+	display: block
+	margin-top: 36px
+	margin-left: 30px
+	font-size: 1.2rem
+	line-height: 1.2	
+
+
+
+.cent
+	display: flex
+
+
+.phone
+	font-size: 2rem
+	color: $text
+	+bold
+	font-weight: 900
+	align-self: center
+
+
+button
+	font-size: 1.2rem
+	align-self: center
+	margin-left: auto
+	color: white
+	background-color: $btn-color
+	border: none
+	text-transform: uppercase
+	border-radius: 8px
+	padding: 1rem 3rem
+
+.main 
